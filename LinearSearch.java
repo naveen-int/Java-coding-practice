@@ -15,20 +15,16 @@ class LinearSearch {
         int target=sc.nextInt();
         boolean found=false;
         
-        for(int i=0;i<n;i++){
-            if(arr[i]==target){
+        for(int j=0;j<n;j++){
+            if(arr[j]==target){
                 found=true;
                
-                System.out.println("Element found at position : " + (i+1));
+                System.out.println("Element found at position : " + (j+1));
             }
         }
         if (!found){
             System.out.print("Element not found");
             
-        }
-        
-        
-    }
-    
-    
+        }   
+    }   
 }
