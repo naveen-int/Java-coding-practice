@@ -24,7 +24,6 @@ class LinearSearch {
         }
         if (!found){
             System.out.print("Element not found");
-            
         }   
     }   
 }
