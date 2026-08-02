@@ -26,7 +26,6 @@ public class RemoveDuplicatesInArray {
 
             if(!duplicate) {
                 System.out.print(arr[j] + " ");
-                //System.out.println(Arrays.toString(arr));
             }      
         }
         
